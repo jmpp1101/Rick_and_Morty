@@ -1,13 +1,16 @@
 import React from 'react';
 import CardPersonaje from './Components/CardPersonaje';
+import Personajes from './Components/Personajes';
+
+import NavBar from './Components/NavBar';
 
 function App() {
   return (
-    <div>
-      <CardPersonaje id={1} />
-      <CardPersonaje id={2} />
-      {/* Agrega más componentes CardPersonaje con los ids correspondientes */}
-    </div>
+  <>
+  <NavBar />
+    <Personajes/>
+    
+    </>
   );
 }
 
